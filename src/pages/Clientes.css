@@ -1,0 +1,117 @@
+.clientes-page { padding: 60px 0 80px; }
+.clientes-page .page-header h1 span { color: var(--violet); }
+
+.login-box {
+  max-width: 440px;
+  margin: 0 auto;
+  border-radius: var(--radius);
+  border: 2px solid var(--violet-soft);
+  overflow: hidden;
+}
+
+.login-tabs {
+  display: flex;
+  border-bottom: 2px solid var(--violet-soft);
+}
+.login-tabs button {
+  flex: 1;
+  padding: 16px;
+  background: none;
+  border: none;
+  font-family: var(--font);
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--text-light);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.login-tabs button.active {
+  color: var(--violet);
+  background: var(--violet-soft);
+}
+.login-tabs button:hover:not(.active) {
+  background: var(--gray-50);
+}
+
+.login-form {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.form-group label {
+  font-weight: 700;
+  font-size: 0.88rem;
+  color: var(--gray-600);
+}
+.form-group input {
+  padding: 12px 16px;
+  border: 2px solid var(--violet-soft);
+  border-radius: var(--radius-sm);
+  font-family: var(--font);
+  font-size: 0.95rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+.form-group input:focus { border-color: var(--violet-light); }
+
+.login-error {
+  color: #dc2626;
+  font-size: 0.88rem;
+  font-weight: 600;
+  background: #fef2f2;
+  padding: 10px 14px;
+  border-radius: var(--radius-sm);
+  border: 1px solid #fecaca;
+}
+
+.login-submit {
+  width: 100%;
+  justify-content: center;
+  padding: 14px;
+  font-size: 1rem;
+}
+.login-submit:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
+
+.login-loading {
+  text-align: center;
+  padding: 48px;
+  color: var(--text-light);
+  font-weight: 600;
+}
+
+/* Dashboard post-login */
+.clientes-dashboard {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.clientes-welcome {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 24px;
+  border-radius: var(--radius);
+  background: var(--violet-soft);
+  border: 2px solid var(--violet-light);
+}
+.clientes-avatar { font-size: 2.5rem; }
+.clientes-welcome h3 { font-weight: 900; color: var(--violet-dark); }
+.clientes-welcome p { color: var(--text-light); font-size: 0.9rem; }
+.clientes-content {
+  padding: 32px;
+  border-radius: var(--radius);
+  border: 2px solid var(--violet-soft);
+  color: var(--text-light);
+  font-weight: 600;
+  text-align: center;
+}
+.logout-btn { align-self: flex-start; }

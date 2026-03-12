@@ -1,0 +1,16 @@
+.nosotros-page { padding: 60px 0 80px; }
+.nosotros-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: start; margin-top: 20px; }
+.nosotros-text h2 { font-size: 1.6rem; font-weight: 900; color: var(--violet); margin-bottom: 20px; }
+.nosotros-text p { color: var(--text-light); line-height: 1.8; margin-bottom: 16px; font-size: 0.97rem; }
+.nosotros-valores { display: flex; flex-direction: column; gap: 16px; }
+.valor-card {
+  display: flex; gap: 16px; align-items: flex-start;
+  padding: 20px; border-radius: var(--radius);
+  border: 2px solid var(--violet-soft);
+  transition: all 0.3s;
+}
+.valor-card:hover { border-color: var(--violet-light); box-shadow: var(--shadow); }
+.valor-card span { font-size: 1.8rem; flex-shrink: 0; }
+.valor-card h4 { font-weight: 800; color: var(--gray-800); margin-bottom: 4px; }
+.valor-card p { font-size: 0.88rem; color: var(--text-light); line-height: 1.5; }
+@media (max-width: 768px) { .nosotros-grid { grid-template-columns: 1fr; } }

@@ -1,0 +1,18 @@
+.galeai-page { padding: 60px 0 80px; }
+.galeai-layout {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 40px;
+  align-items: start;
+  margin-top: 20px;
+}
+.galeai-page .page-header h1 span { color: var(--violet); }
+.galeai-robot-scene {
+  width: 100%;
+  aspect-ratio: 3/4;
+  max-height: 420px;
+}
+@media (max-width: 768px) {
+  .galeai-layout { grid-template-columns: 1fr; }
+  .galeai-robot-scene { max-height: 280px; }
+}

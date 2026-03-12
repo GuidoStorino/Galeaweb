@@ -1,0 +1,16 @@
+.contacto-page { padding: 60px 0 80px; }
+.contacto-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: start; margin-top: 20px; }
+.contacto-info { display: flex; flex-direction: column; gap: 16px; }
+.contacto-card {
+  display: flex; gap: 16px; align-items: flex-start;
+  padding: 20px; border-radius: var(--radius);
+  border: 2px solid var(--violet-soft);
+  transition: all 0.3s;
+}
+.contacto-card:hover { border-color: var(--violet-light); box-shadow: var(--shadow); }
+.contacto-icon { font-size: 1.6rem; flex-shrink: 0; }
+.contacto-card h4 { font-weight: 800; color: var(--gray-800); margin-bottom: 4px; }
+.contacto-card p { font-size: 0.9rem; color: var(--text-light); }
+.whatsapp-cta { justify-content: center; background: #25d366; margin-top: 8px; }
+.whatsapp-cta:hover { background: #1da851; }
+@media (max-width: 768px) { .contacto-grid { grid-template-columns: 1fr; } }
