@@ -2,14 +2,13 @@ import { Link } from 'react-router-dom'
 import './Home.css'
 import GaleaPortada from '../assets/GaleaPortada.PNG'
 import RobotTrabajando from '../assets/RobotTrabajando.PNG'
-import ReguladorDosEtapas from '../assets/ReguladorDosEtapas.JPG'
 import { useState, useEffect } from 'react'
 
 const heroImages = [
   GaleaPortada,
-  'https://galealg.com/wp-content/uploads/2023/05/IMG-3231-600x600.jpg',
+  'https://res.cloudinary.com/dkrnlomsj/image/upload/v1773408956/1433-IMG_4321-ok-300x300_amvvsc.jpg',
   RobotTrabajando,
-  ReguladorDosEtapas,
+  'https://res.cloudinary.com/dkrnlomsj/image/upload/v1773408875/IMG-3231-600x600_hm3pks.jpg',
 ]
 
 export default function Home() {
