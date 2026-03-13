@@ -19,7 +19,7 @@ export default function Navbar() {
       <div className="container navbar-inner">
         <Link to="/" className="navbar-logo">
           <img
-            src="https://galealg.com/wp-content/uploads/2023/04/cropped-cropped-Galea-Logo-oficial-e1680360050697-1-145x48.png"
+            src="https://res.cloudinary.com/dkrnlomsj/image/upload/v1773409044/cropped-cropped-Galea-Logo-oficial-e1680360050697-1-600x200_sfpjdb.png"
             alt="GaLea LG"
           />
         </Link>
