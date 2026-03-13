@@ -85,3 +85,9 @@
 @media (max-width: 380px) {
   .productos-grid { grid-template-columns: 1fr; }
 }
+
+.etrusco {
+  font-family: 'Etrusco', sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}

@@ -19,7 +19,7 @@ export default function Productos() {
     <main className="productos-page">
       <div className="container">
         <div className="page-header">
-          <h1>Nuestros <span>Productos</span></h1>
+          <h1 className='etrusco'>Nuestros <span>Productos</span></h1>
           <p>Reguladores, flexibles y accesorios certificados por el Instituto del Gas Argentino</p>
         </div>
 

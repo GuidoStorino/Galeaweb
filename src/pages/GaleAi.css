@@ -16,3 +16,9 @@
   .galeai-layout { grid-template-columns: 1fr; }
   .galeai-robot-scene { max-height: 280px; }
 }
+
+.etrusco {
+  font-family: 'Etrusco', sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}

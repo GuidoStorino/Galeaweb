@@ -5,7 +5,7 @@ export const productos = [
     nombre: 'Regulador de dos etapas',
     codigo: 'GN2E',
     categoria: 'Gas natural',
-    imagen: 'https://galealg.com/wp-content/uploads/2023/05/IMG-3231-600x600.jpg',
+    imagen: 'https://res.cloudinary.com/dkrnlomsj/image/upload/v1773408875/IMG-3231-600x600_hm3pks.jpg',
     descripcion: 'Regulador de dos etapas para gas natural. Alta precisión y seguridad para instalaciones residenciales y comerciales.',
   },
   {
@@ -13,7 +13,7 @@ export const productos = [
     nombre: 'Regulador GN-6 c/flexible 60cm',
     codigo: '110',
     categoria: 'Gas natural',
-    imagen: 'https://galealg.com/wp-content/uploads/2023/04/110-IMG_4305-ok-300x300.jpg',
+    imagen: 'https://res.cloudinary.com/dkrnlomsj/image/upload/v1773408927/110-IMG_4305-ok-300x300_s2jpwo.jpg',
     descripcion: 'Regulador para gas natural 4 bar, 6 m³/h, con flexible de 60 cm incluido.',
   },
   {
@@ -21,7 +21,7 @@ export const productos = [
     nombre: 'Regulador 1403',
     codigo: '1403',
     categoria: 'Gas natural',
-    imagen: 'https://galealg.com/wp-content/uploads/2023/05/1403_Reg-300x300.jpg',
+    imagen: 'https://res.cloudinary.com/dkrnlomsj/image/upload/v1773410791/1403_Reg_ucah3s.jpg',
     descripcion: 'Regulador para gas natural.',
   },
   {
@@ -29,7 +29,7 @@ export const productos = [
     nombre: 'Regulador 1411',
     codigo: '1411',
     categoria: 'Gas natural',
-    imagen: 'https://galealg.com/wp-content/uploads/2023/05/1411_Regulador-GN-8.5-m3_h-Directo-300x300.jpg',
+    imagen: 'https://res.cloudinary.com/dkrnlomsj/image/upload/v1773408956/1433-IMG_4321-ok-300x300_amvvsc.jpg',
     descripcion: 'Regulador para gas natural 8,5 m³/h directo.',
   },
   {
@@ -37,7 +37,7 @@ export const productos = [
     nombre: 'Regulador 1416',
     codigo: '1416',
     categoria: 'Gas natural',
-    imagen: 'https://galealg.com/wp-content/uploads/2023/05/1416_Regulador-GN-15bar-12-m3_h-con-Flexible-con-Manguito-Incorporado-300x300.jpg',
+    imagen: 'https://res.cloudinary.com/dkrnlomsj/image/upload/v1773410789/1416_Regulador_GN-1_5bar-_12_m3_h_con_Flexible_con_Manguito_Incorporado_axdwvd.jpg',
     descripcion: 'Regulador GN 15 bar, 12 m³/h con flexible y manguito incorporado.',
   },
   {
@@ -45,7 +45,7 @@ export const productos = [
     nombre: 'Regulador 1431',
     codigo: '1431',
     categoria: 'Gas natural',
-    imagen: 'https://galealg.com/wp-content/uploads/2023/05/1431-Regulador-GN-15-bar-12-m3_h-Directo-300x300.jpg',
+    imagen: 'https://res.cloudinary.com/dkrnlomsj/image/upload/v1773410789/1431_Regulador_GN_1_5_bar-12_m3_h_Directo_1_uhj4bw.jpg',
     descripcion: 'Regulador GN 15 bar, 12 m³/h directo.',
   },
   // ── REGULADORES ENVASADO ─────────────────────────
@@ -54,7 +54,7 @@ export const productos = [
     nombre: 'Regulador gas 45 kg – 1435',
     codigo: '1435',
     categoria: 'Envasado',
-    imagen: 'https://galealg.com/wp-content/uploads/2021/08/1437S_FLEX_REG-GE-45-kg-Con-VALVULA-COLECTORA-SIN-FLEX-300x300.jpg',
+    imagen: 'https://res.cloudinary.com/dkrnlomsj/image/upload/v1773409582/1437S_FLEX_REG-GE-45-kg-Con-VALVULA-COLECTORA-SIN-FLEX-1024x683_oxjwnw.jpg',
     descripcion: 'Regulador para gas envasado en cilindros de 45 kg.',
   },
   {
@@ -62,7 +62,7 @@ export const productos = [
     nombre: 'Regulador 1GLP 45',
     codigo: '1GLP45',
     categoria: 'Envasado',
-    imagen: 'https://galealg.com/wp-content/uploads/2021/08/1GLP45-Regulador-GLP45-Kg-Completo-Con-2-Flexibles-b-300x300.jpg',
+    imagen: 'https://res.cloudinary.com/dkrnlomsj/image/upload/v1773409561/1GLP45-Regulador-GLP45-Kg-Completo-Con-2-Flexibles-b-600x400_ucwzlz.jpg',
     descripcion: 'Regulador para GLP 45 kg completo con 2 flexibles.',
   },
   // ── FLEXIBLES ────────────────────────────────────
@@ -71,7 +71,7 @@ export const productos = [
     nombre: 'Flexible 114',
     codigo: '114',
     categoria: 'Flexibles',
-    imagen: 'https://galealg.com/wp-content/uploads/2021/08/114-IMG_4289-ok-300x300.jpg',
+    imagen: 'https://res.cloudinary.com/dkrnlomsj/image/upload/v1773409566/114-IMG_4289-ok-2048x1365_okeeaz.jpg',
     descripcion: 'Flexible certificado para instalaciones de gas.',
   },
   {
@@ -79,7 +79,7 @@ export const productos = [
     nombre: 'Flexible 1452',
     codigo: '1452',
     categoria: 'Flexibles',
-    imagen: 'https://galealg.com/wp-content/uploads/2021/08/1452-IMG_4299-ok-300x300.jpg',
+    imagen: 'https://res.cloudinary.com/dkrnlomsj/image/upload/v1773409513/1452-IMG_4299-ok-768x512_ljtact.jpg',
     descripcion: 'Flexible certificado para instalaciones de gas.',
   },
   {
@@ -87,7 +87,7 @@ export const productos = [
     nombre: 'Flexible 1454',
     codigo: '1454',
     categoria: 'Flexibles',
-    imagen: 'https://galealg.com/wp-content/uploads/2021/08/1454-IMG_4300-ok-300x300.jpg',
+    imagen: 'https://res.cloudinary.com/dkrnlomsj/image/upload/v1773409593/1454-IMG_4300-ok-300x300_o4zlk4.jpg',
     descripcion: 'Flexible certificado para instalaciones de gas.',
   },
   {
@@ -95,7 +95,7 @@ export const productos = [
     nombre: 'Flexible 1796',
     codigo: '1796',
     categoria: 'Flexibles',
-    imagen: 'https://galealg.com/wp-content/uploads/2021/08/1796-IMG_4286-ok-300x300.jpg',
+    imagen: 'https://res.cloudinary.com/dkrnlomsj/image/upload/v1773409480/1797-IMG_4282-ok-768x512_bvoyie.jpg',
     descripcion: 'Flexible certificado para instalaciones de gas.',
   },
   {
@@ -103,7 +103,7 @@ export const productos = [
     nombre: 'Flexible 1797',
     codigo: '1797',
     categoria: 'Flexibles',
-    imagen: 'https://galealg.com/wp-content/uploads/2021/08/1797-IMG_4282-ok-300x300.jpg',
+    imagen: 'https://res.cloudinary.com/dkrnlomsj/image/upload/v1773409538/1797-IMG_4282-ok-scaled_pkk044.jpg',
     descripcion: 'Flexible certificado para instalaciones de gas.',
   },
   {
@@ -111,7 +111,7 @@ export const productos = [
     nombre: 'Flexible 1798',
     codigo: '1798',
     categoria: 'Flexibles',
-    imagen: 'https://galealg.com/wp-content/uploads/2021/08/1798-IMG_4298-ok-300x300.jpg',
+    imagen: 'https://res.cloudinary.com/dkrnlomsj/image/upload/v1773409538/1798-IMG_4298-ok-300x300_rkuorf.jpg',
     descripcion: 'Flexible certificado para instalaciones de gas.',
   },
   {
@@ -119,7 +119,7 @@ export const productos = [
     nombre: 'Flexible 149',
     codigo: '149',
     categoria: 'Flexibles',
-    imagen: 'https://galealg.com/wp-content/uploads/2021/08/149-IMG_4296-ok-300x300.jpg',
+    imagen: 'https://res.cloudinary.com/dkrnlomsj/image/upload/v1773409507/149-IMG_4296-ok-scaled_oabnrj.jpg',
     descripcion: 'Flexible certificado para instalaciones de gas.',
   },
   // ── ACCESORIOS ───────────────────────────────────
@@ -128,7 +128,7 @@ export const productos = [
     nombre: 'Arandelas de salida',
     codigo: 'ARD',
     categoria: 'Arandelas',
-    imagen: 'https://galealg.com/wp-content/uploads/2021/08/Arandela-de-Salida-goma-3GN6_35-300x300.jpg',
+    imagen: 'https://res.cloudinary.com/dkrnlomsj/image/upload/v1773409489/Arandela-de-Salida-goma-3GN6_35-2048x1536_v1smxp.jpg',
     descripcion: 'Arandelas de salida de goma para reguladores GN.',
   },
   {
@@ -136,7 +136,7 @@ export const productos = [
     nombre: 'Manguito 3/4"',
     codigo: '1453',
     categoria: 'Manguitos',
-    imagen: 'https://galealg.com/wp-content/uploads/2021/08/MANGUITO-%C2%BE-_-ROSCA-IZQUIERDA-7_8-cod-1453--300x300.jpg',
+    imagen: 'https://res.cloudinary.com/dkrnlomsj/image/upload/v1773409490/MANGUITO-__-ROSCA-IZQUIERDA-7_8-PARA-GN-REDES-COD-1674_v8mddx.jpg',
     descripcion: 'Manguito 3/4" rosca izquierda 7/8.',
   },
   {
@@ -144,7 +144,7 @@ export const productos = [
     nombre: 'Pilar 1/14"',
     codigo: '1460',
     categoria: 'Pilares',
-    imagen: 'https://galealg.com/wp-content/uploads/2021/08/1460-IMG_4345-ok-300x300.jpg',
+    imagen: 'https://res.cloudinary.com/dkrnlomsj/image/upload/v1773409597/1672-IMG_4346-ok-300x300_uwbfas.jpg',
     descripcion: 'Pilar 1/14" para instalaciones de gas.',
   },
 ]

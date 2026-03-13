@@ -14,3 +14,9 @@
 .valor-card h4 { font-weight: 800; color: var(--gray-800); margin-bottom: 4px; }
 .valor-card p { font-size: 0.88rem; color: var(--text-light); line-height: 1.5; }
 @media (max-width: 768px) { .nosotros-grid { grid-template-columns: 1fr; } }
+
+.etrusco {
+  font-family: 'Etrusco', sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}

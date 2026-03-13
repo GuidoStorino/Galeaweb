@@ -20,7 +20,7 @@ function checkRateLimit(ip) {
 
 export default async function handler(req, res) {
   const origin = req.headers.origin
-  const allowedOrigins = ['https://galealg.com', 'http://localhost:5173']
+  const allowedOrigins = ['https://galealg.com', 'http://localhost:5173', 'https://galealg-web.vercel.app']
   res.setHeader('Access-Control-Allow-Origin', allowedOrigins.includes(origin) ? origin : allowedOrigins[0])
   res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS')
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type')

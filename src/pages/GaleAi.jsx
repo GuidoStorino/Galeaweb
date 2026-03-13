@@ -10,7 +10,7 @@ export default function GaleAi() {
     <main className="galeai-page">
       <div className="container">
         <div className="page-header">
-          <h1>Hablá con <span>Gale-Ai</span> 🤖</h1>
+          <h1 className='etrusco'>Hablá con <span>Gale-Ai</span> 🤖</h1>
           <p>Tu asistente virtual de GaLea LG. Preguntame lo que quieras sobre nuestros productos.</p>
         </div>
 

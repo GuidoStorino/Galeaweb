@@ -12,7 +12,7 @@ export default function Contacto() {
     <main className="contacto-page">
       <div className="container">
         <div className="page-header">
-          <h1>Contactanos</h1>
+          <h1 className='etrusco'>Contactanos</h1>
           <p>Comunicate con nosotros y te responderemos a la brevedad</p>
         </div>
 

@@ -1,29 +1,61 @@
 import { Link } from 'react-router-dom'
 import './Home.css'
 import GaleaPortada from '../assets/GaleaPortada.PNG'
+import RobotTrabajando from '../assets/RobotTrabajando.PNG'
+import ReguladorDosEtapas from '../assets/ReguladorDosEtapas.JPG'
+import { useState, useEffect } from 'react'
+
+const heroImages = [
+  GaleaPortada,
+  'https://galealg.com/wp-content/uploads/2023/05/IMG-3231-600x600.jpg',
+  RobotTrabajando,
+  ReguladorDosEtapas,
+]
 
 export default function Home() {
+  const [slideActivo, setSlideActivo] = useState(0)
+
+useEffect(() => {
+  const timer = setInterval(() => {
+    setSlideActivo(i => (i + 1) % heroImages.length)
+  }, 4000)
+  return () => clearInterval(timer)
+}, [])
   return (
     <main className="home">
       {/* Hero */}
       <section className="hero">
         <div className="container hero-inner">
           <div className="hero-text">
-            <span className="hero-badge">Industria Argentina 🇦🇷</span>
-            <h1>Reguladores de gas <span>de alta calidad</span></h1>
-            <p>Más de 30 años fabricando reguladores de gas certificados por el Instituto del Gas Argentino. Empresa certificada ISO 9001.</p>
+            
+            <h1 className='etrusco' >Galea <span>LG</span></h1>
+            <p>Más de 30 años en la industria del gas.</p>
             <div className="hero-ctas">
               <Link to="/productos" className="btn-primary">Ver productos</Link>
               <Link to="/nosotros" className="btn-outline">Conocé más</Link>
             </div>
           </div>
           <div className="hero-image">
-            <img
-              src={GaleaPortada}
-              alt="GaLea LG"
-              
-            />
-          </div>
+  <div className="slider">
+    {heroImages.map((img, i) => (
+      <img
+        key={i}
+        src={img}
+        alt={`GaLea LG ${i + 1}`}
+        className={`slide ${i === slideActivo ? 'active' : ''}`}
+      />
+    ))}
+    <div className="slider-dots">
+      {heroImages.map((_, i) => (
+        <button
+          key={i}
+          className={`dot ${i === slideActivo ? 'active' : ''}`}
+          onClick={() => setSlideActivo(i)}
+        />
+      ))}
+    </div>
+  </div>
+</div>
         </div>
       </section>
 

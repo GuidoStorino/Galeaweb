@@ -32,10 +32,11 @@ export default function Footer() {
 
         <div className="footer-col">
           <h4>Horario</h4>
-          <p>Lun - Vie: 08:30 - 16:30</p>
-          <p>Sáb: 09:30 - 12:30</p>
-          <a href="https://instagram.com/galealg" target="_blank" rel="noreferrer">
-            📸 @galealg
+          <p>Lun - Vie: 09:00 - 17:00</p>
+          <a href="https://instagram.com/galea.lg" target="_blank" rel="noreferrer">
+          📸 @galea.lg </a>
+          <a href="https://www.linkedin.com/company/galea-lg" target="_blank" rel="noreferrer">
+          🌐 LinkedIn
           </a>
         </div>
       </div>

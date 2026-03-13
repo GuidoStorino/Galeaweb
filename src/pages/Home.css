@@ -65,3 +65,51 @@
   .stats-grid { grid-template-columns: 1fr; }
   .hero { padding: 48px 0 40px; }
 }
+
+.slider {
+  position: relative;
+  border-radius: 24px;
+  overflow: hidden;
+  aspect-ratio: 4/3;
+  box-shadow: var(--shadow-hover);
+}
+
+.slide {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.8s ease-in-out;
+}
+.slide.active { opacity: 1; }
+
+.slider-dots {
+  position: absolute;
+  bottom: 14px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+  z-index: 2;
+}
+.dot {
+  width: 9px; height: 9px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(255,255,255,0.5);
+  cursor: pointer;
+  transition: all 0.3s;
+  padding: 0;
+}
+.dot.active {
+  background: white;
+  transform: scale(1.3);
+}
+
+.etrusco {
+  font-family: 'Etrusco', sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}

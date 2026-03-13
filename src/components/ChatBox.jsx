@@ -47,7 +47,7 @@ const stripEmojis = (text) => {
     onSpeakingChange(false)
 
     try {
-      const res = await fetch('https://gale-ai.vercel.app/api/chat', {
+      const res = await fetch('https://galeaweb.vercel.app/api/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ messages: newMessages }),

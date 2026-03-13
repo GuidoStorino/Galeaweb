@@ -74,7 +74,7 @@ export default function Clientes() {
       <main className="clientes-page">
         <div className="container">
           <div className="page-header">
-            <h1>Área de <span>Clientes</span></h1>
+            <h1 className='etrusco'>Área de <span>Clientes</span></h1>
           </div>
           <div className="clientes-dashboard">
             <div className="clientes-welcome">

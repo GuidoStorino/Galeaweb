@@ -1,6 +1,13 @@
 @import './styles/variables.css';
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Orbitron:wght@700;900&display=swap');
 
+@font-face {
+  font-family: 'Etrusco';
+  src: url('./assets/etrusconowcondensed-heavy-italic.otf') format('opentype');
+  font-weight: 900;
+  font-style: italic;
+}
+
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
 body {

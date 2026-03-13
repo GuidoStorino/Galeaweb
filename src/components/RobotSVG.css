@@ -84,36 +84,7 @@
   to   { opacity: 1;   transform: scale(1.18); }
 }
 
-/* ── Overlay de la boca ── */
-.mouth-overlay {
-  position: absolute;
-  /* Posición ajustada a donde está la boca en la imagen */
-  bottom: 55%;
-  left: 51%;
-  transform: translateX(-50%);
-  width: 13%;
-  z-index: 3;
-  pointer-events: none;
-  opacity: 0; /* oculta por defecto — la imagen ya tiene boca */
-}
 
-/* Cuando habla: mostramos la boca animada sobre la imagen */
-.mouth-overlay.talking {
-  opacity: 1;
-}
-
-.m-smile { display: none; } /* la imagen ya tiene la sonrisa */
-.m-open  { display: none; }
-
-.mouth-overlay.talking .m-open {
-  display: block;
-  transform-origin: 30px 13px;
-  animation: mopen 0.38s ease-in-out infinite alternate;
-}
-@keyframes mopen {
-  from { transform: scaleY(0.3); }
-  to   { transform: scaleY(1.2); }
-}
 
 /* ── Partículas de energía ── */
 .energy-particles {

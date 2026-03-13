@@ -115,3 +115,9 @@
   text-align: center;
 }
 .logout-btn { align-self: flex-start; }
+
+.etrusco {
+  font-family: 'Etrusco', sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
