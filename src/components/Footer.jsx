@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="container footer-inner">
         <div className="footer-brand">
           <img
-            src="https://galealg.com/wp-content/uploads/2023/04/cropped-cropped-Galea-Logo-oficial-e1680360050697-1-145x48.png"
+            src="https://res.cloudinary.com/dkrnlomsj/image/upload/v1773674649/Galea-Logo-oficial-e1680360050697-768x393_vqacam.png"
             alt="GaLea LG"
           />
           <p>Más de 30 años fabricando reguladores de gas de alta calidad. Empresa certificada ISO 9001.</p>

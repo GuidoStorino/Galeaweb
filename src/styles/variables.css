@@ -16,4 +16,8 @@
   --radius: 16px;
   --radius-sm: 10px;
   --font: 'Nunito', sans-serif;
+  --border: 2px solid #1a1a1a;
+  --gray-50: #f5f0ff;
+--white: #f5f0ff;
 }
+

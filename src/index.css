@@ -13,7 +13,7 @@
 body {
   font-family: var(--font);
   color: var(--text);
-  background: var(--white);
+  background: #f5f0ff;  /* ← violeta muy tenue */
   -webkit-font-smoothing: antialiased;
 }
 
@@ -64,4 +64,157 @@ img { max-width: 100%; display: block; }
   background: var(--violet);
   color: white;
   transform: translateY(-2px);
+}
+
+.stat-card,
+.producto-card,
+.valor-card,
+.contacto-card,
+.login-box,
+.slider,
+.chat-history,
+.chatbox {
+  border: 2px solid #1a1a1a !important;
+}
+
+.hero {
+  background: transparent !important;
+}
+
+.galeai-promo {
+  background: linear-gradient(135deg, #5b21b6, #7c3aed) !important;
+}
+
+.navbar {
+  background: #f5f0ff !important;
+}
+
+.footer {
+  background: var(--violet-dark) !important;
+}
+
+body.dark {
+  background: #0f0a1e;
+  color: #f0e6ff;
+}
+
+body.dark h1,
+body.dark h2,
+body.dark h3,
+body.dark h4,
+body.dark h5 {
+  color: #f0e6ff !important;
+}
+
+body.dark p,
+body.dark span,
+body.dark li {
+  color: #ddd6fe !important;
+}
+
+body.dark .navbar {
+  background: #1a1030 !important;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.4);
+}
+
+body.dark .navbar-links a,
+body.dark .navbar-mobile a {
+  color: #ddd6fe;
+}
+
+body.dark .navbar-links a:hover,
+body.dark .navbar-links a.active,
+body.dark .navbar-mobile a:hover,
+body.dark .navbar-mobile a.active {
+  color: white;
+  background: #2e1065;
+}
+
+body.dark .stat-card,
+body.dark .producto-card,
+body.dark .valor-card,
+body.dark .contacto-card,
+body.dark .login-box,
+body.dark .chatbox,
+body.dark .clientes-content {
+  background: #1a1030;
+  border-color: #4c1d95 !important;
+}
+
+body.dark .stat-card h3 {
+  color: #c084fc !important;
+}
+
+body.dark .producto-codigo {
+  color: #a78bfa !important;
+}
+
+body.dark .productos-search,
+body.dark .form-group input {
+  background: #1a1030;
+  border-color: #4c1d95;
+  color: #f0e6ff;
+}
+
+body.dark .productos-search::placeholder {
+  color: #7c6aab;
+}
+
+body.dark .cat-btn {
+  border-color: #4c1d95;
+  color: #ddd6fe;
+  background: transparent;
+}
+
+body.dark .cat-btn:hover,
+body.dark .cat-btn.active {
+  background: #7c3aed;
+  color: white;
+  border-color: #7c3aed;
+}
+
+body.dark .footer {
+  background: #0a0618 !important;
+}
+
+body.dark .footer-col a,
+body.dark .footer-col p {
+  color: rgba(255,255,255,0.75) !important;
+}
+
+body.dark .galeai-promo {
+  background: linear-gradient(135deg, #1a0a2e, #2e1065) !important;
+}
+
+body.dark .login-tabs button {
+  color: #ddd6fe;
+}
+
+body.dark .login-tabs button.active {
+  background: #2e1065;
+  color: #f0e6ff;
+}
+
+body.dark .clientes-welcome {
+  background: #2e1065;
+  border-color: #7c3aed;
+}
+
+body.dark .hero-badge {
+  background: #2e1065;
+  color: #c084fc;
+}
+
+body.dark .page-header p {
+  color: #ddd6fe !important;
+}
+
+body.dark .chat-welcome {
+  color: #c4b5fd;
+}
+
+body.dark .chat-msg.assistant .chat-bubble {
+  background: #2e1065;
+  border-color: #7c3aed;
+  color: #f0e6ff;
 }

@@ -77,3 +77,34 @@
   .navbar-burger { display: flex; }
   .navbar-mobile.open { display: flex; }
 }
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.dark-toggle {
+  background: none;
+  border: 2px solid var(--violet-soft);
+  border-radius: 50px;
+  width: 38px;
+  height: 38px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dark-toggle:hover {
+  background: var(--violet-soft);
+  transform: scale(1.1);
+}
+
+body.dark .dark-toggle {
+  border-color: #4c1d95;
+}
+body.dark .dark-toggle:hover {
+  background: #2e1065;
+}

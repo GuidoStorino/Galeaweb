@@ -6,7 +6,7 @@ import { useState, useEffect } from 'react'
 
 const heroImages = [
   GaleaPortada,
-  'https://res.cloudinary.com/dkrnlomsj/image/upload/v1773408956/1433-IMG_4321-ok-300x300_amvvsc.jpg',
+  'https://res.cloudinary.com/dkrnlomsj/image/upload/v1775049028/IMG_1056_tkudni.jpg',
   RobotTrabajando,
   'https://res.cloudinary.com/dkrnlomsj/image/upload/v1773408875/IMG-3231-600x600_hm3pks.jpg',
 ]
@@ -30,9 +30,17 @@ useEffect(() => {
             <h1 className='etrusco' >Galea <span>LG</span></h1>
             <p>Más de 30 años en la industria del gas.</p>
             <div className="hero-ctas">
-              <Link to="/productos" className="btn-primary">Ver productos</Link>
-              <Link to="/nosotros" className="btn-outline">Conocé más</Link>
-            </div>
+  <Link to="/productos" className="btn-primary">Ver productos</Link>
+  <Link to="/nosotros" className="btn-outline">Conocé más</Link>
+</div>
+<div className="hero-cats">
+  <Link to="/productos?categoria=Gas+natural" className="cat-link">
+    🔥 Gas natural
+  </Link>
+  <Link to="/productos?categoria=Envasado" className="cat-link">
+    🛢️ Gas envasado
+  </Link>
+</div>
           </div>
           <div className="hero-image">
   <div className="slider">
@@ -93,7 +101,7 @@ useEffect(() => {
             <Link to="/gale-ai" className="btn-primary">Hablar con Gale-Ai</Link>
           </div>
           <div className="galeai-img">
-            <img src="/gale-ai-robot.png" alt="Gale-Ai"/>
+            
           </div>
         </div>
       </section>

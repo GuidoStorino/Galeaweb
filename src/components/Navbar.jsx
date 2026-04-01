@@ -1,9 +1,15 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import './Navbar.css'
 
 export default function Navbar() {
   const [open, setOpen] = useState(false)
+  const [dark, setDark] = useState(() => localStorage.getItem('darkMode') === 'true')
+
+  useEffect(() => {
+    document.body.classList.toggle('dark', dark)
+    localStorage.setItem('darkMode', dark)
+  }, [dark])
 
   const links = [
     { to: '/',          label: 'Inicio' },
@@ -19,12 +25,10 @@ export default function Navbar() {
       <div className="container navbar-inner">
         <Link to="/" className="navbar-logo">
           <img
-            src="https://res.cloudinary.com/dkrnlomsj/image/upload/v1773409044/cropped-cropped-Galea-Logo-oficial-e1680360050697-1-600x200_sfpjdb.png"
-            alt="GaLea LG"
+src='https://res.cloudinary.com/dkrnlomsj/image/upload/v1773674649/Galea-Logo-oficial-e1680360050697-768x393_vqacam.png'            alt="GaLea LG"
           />
         </Link>
 
-        {/* Desktop links */}
         <ul className="navbar-links">
           {links.map(l => (
             <li key={l.to}>
@@ -39,17 +43,25 @@ export default function Navbar() {
           ))}
         </ul>
 
-        {/* Hamburger */}
-        <button
-          className={`navbar-burger ${open ? 'open' : ''}`}
-          onClick={() => setOpen(!open)}
-          aria-label="Menú"
-        >
-          <span/><span/><span/>
-        </button>
+        <div className="navbar-right">
+          <button
+            className="dark-toggle"
+            onClick={() => setDark(!dark)}
+            title={dark ? 'Modo claro' : 'Modo oscuro'}
+          >
+            {dark ? '☀️' : '🌙'}
+          </button>
+
+          <button
+            className={`navbar-burger ${open ? 'open' : ''}`}
+            onClick={() => setOpen(!open)}
+            aria-label="Menú"
+          >
+            <span/><span/><span/>
+          </button>
+        </div>
       </div>
 
-      {/* Mobile menu */}
       <div className={`navbar-mobile ${open ? 'open' : ''}`}>
         {links.map(l => (
           <NavLink

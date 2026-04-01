@@ -1,11 +1,17 @@
-import { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { useState, useEffect } from 'react'
+import { useSearchParams } from 'react-router-dom'
 import { productos, categorias } from '../data/productos'
 import './Productos.css'
 
 export default function Productos() {
+  const [searchParams] = useSearchParams()
   const [categoriaActiva, setCategoriaActiva] = useState('Todos')
   const [busqueda, setBusqueda] = useState('')
+
+  useEffect(() => {
+  const cat = searchParams.get('categoria')
+  if (cat) setCategoriaActiva(cat)
+}, [searchParams])
 
   const filtrados = productos.filter(p => {
     const matchCategoria = categoriaActiva === 'Todos' || p.categoria === categoriaActiva
