@@ -11,7 +11,7 @@ export default function Nosotros() {
 
         <div className="nosotros-grid">
           <div className="nosotros-text">
-            <h2 >Nuestra historia</h2>
+            <h2>Nuestra historia</h2>
             <p>Estamos dedicados a la industria del gas desde hace más de treinta años, en donde el cliente nos sigue eligiendo por nuestra idoneidad, buena predisposición, y calidad, tanto técnica como humana.</p>
             <p>Antes de la fundación de esta sociedad, nos dedicábamos a la actividad metalúrgica. Por inquietud en el mercado del gas y a través de diversos vínculos comerciales con empresas relacionadas con el rubro, surge GALEA LG.</p>
             <p>Desde entonces, nuestros productos han sido ampliamente aceptados gracias a un trabajo persistente, siempre en la búsqueda de una mejora continua sostenida en los años.</p>
@@ -35,6 +35,15 @@ export default function Nosotros() {
             ))}
           </div>
         </div>
+
+        {/* VIDEO */}
+        <div className="nosotros-video">
+          <video controls>
+            <source src="/videos/nosotros.mp4" type="video/mp4" />
+            Tu navegador no soporta la reproducción de video.
+          </video>
+        </div>
+
       </div>
     </main>
   )
